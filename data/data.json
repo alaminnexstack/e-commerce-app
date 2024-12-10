@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 14 Pro",
+      "price": 999,
+      "description": "Latest iPhone with advanced features",
+      "category": "Electronics",
+      "image": "https://example.com/iphone14.jpg"
+    },
+    {
+      "id": 2,
+      "name": "MacBook Pro",
+      "price": 1299,
+      "description": "Powerful laptop for professionals",
+      "category": "Electronics",
+      "image": "https://example.com/macbook.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Clothing"
+    }
+  ]
+}
