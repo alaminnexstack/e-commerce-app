@@ -1,10 +1,14 @@
 export interface ProductType {
-  id: number;
+  id: string;
   title: string;
   price: number;
   description: string;
   images: string[];
-  category: Category;
+  category: {
+    id: number;
+    name: string;
+    image: string;
+  };
 }
 
 interface Category {

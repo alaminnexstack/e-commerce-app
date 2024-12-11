@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Classic White T-Shirt",
+      "price": 29.99,
+      "description": "A comfortable and versatile white t-shirt made from 100% cotton.",
+      "images": [
+        "https://picsum.photos/400/400"
+      ],
+      "category": {
+        "id": 1,
+        "name": "Clothing",
+        "image": "https://picsum.photos/200/200"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Blue Denim Jeans",
+      "price": 59.99,
+      "description": "Classic blue denim jeans with a comfortable fit.",
+      "images": [
+        "https://picsum.photos/400/400"
+      ],
+      "category": {
+        "id": 1,
+        "name": "Clothing",
+        "image": "https://picsum.photos/200/200"
+      }
+    }
+  ]
+}

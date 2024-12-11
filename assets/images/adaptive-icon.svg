@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108" height="108" viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="108" height="108" fill="#673AB7"/>
+    
+    <!-- Shopping Cart Icon -->
+    <path d="M34 44H74L69 69H39L34 44Z" fill="white"/>
+    <path d="M42 74H67M47 79C47 81.7614 44.7614 84 42 84C39.2386 84 37 81.7614 37 79C37 76.2386 39.2386 74 42 74C44.7614 74 47 76.2386 47 79ZM67 79C67 81.7614 64.7614 84 62 84C59.2386 84 57 81.7614 57 79C57 76.2386 59.2386 74 62 74C64.7614 74 67 76.2386 67 79Z" stroke="white" stroke-width="2"/>
+</svg>

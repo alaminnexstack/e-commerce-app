@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Main Circle -->
+    <circle cx="100" cy="100" r="90" fill="#673AB7"/>
+    
+    <!-- Shopping Cart Icon -->
+    <path d="M60 70H140L130 120H70L60 70Z" fill="white"/>
+    <path d="M75 130H125M85 140C85 145.523 80.5228 150 75 150C69.4772 150 65 145.523 65 140C65 134.477 69.4772 130 75 130C80.5228 130 85 134.477 85 140ZM125 140C125 145.523 120.523 150 115 150C109.477 150 105 145.523 105 140C105 134.477 109.477 130 115 130C120.523 130 125 134.477 125 140Z" stroke="white" stroke-width="4"/>
+    
+    <!-- App Name -->
+    <text x="100" y="180" text-anchor="middle" fill="white" font-family="Arial" font-size="20" font-weight="bold">E-Shop</text>
+</svg>

@@ -5,19 +5,25 @@ import {
   ImageBackground,
   TouchableOpacity,
   Dimensions,
+  StatusBar,
 } from "react-native";
 import { Link } from "expo-router";
-import { StatusBar } from "expo-status-bar";
 import { FontAwesome } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
 
 export default function WelcomeScreen() {
   return (
     <View style={styles.container}>
-      <StatusBar style="light" translucent={true} />
+      {/* Ensures status bar is translucent */}
+      <StatusBar
+        translucent
+        backgroundColor="transparent"
+        barStyle="light-content"
+      />
       <ImageBackground
         source={require("../assets/images/ecommerce-splash.jpg")}
         style={styles.backgroundImage}
+        resizeMode="cover"
       >
         <LinearGradient
           colors={["transparent", "rgba(0,0,0,0.95)"]}
@@ -68,6 +74,7 @@ const { width, height } = Dimensions.get("window");
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "black", // Prevents white flashes
   },
   backgroundImage: {
     flex: 1,

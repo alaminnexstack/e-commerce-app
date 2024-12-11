@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1024" height="1024" fill="#673AB7"/>
+    
+    <!-- Shopping Cart Icon -->
+    <path d="M312 412H712L662 662H362L312 412Z" fill="white"/>
+    <path d="M412 712H612M462 762C462 789.614 439.614 812 412 812C384.386 812 362 789.614 362 762C362 734.386 384.386 712 412 712C439.614 712 462 734.386 462 762ZM612 762C612 789.614 589.614 812 562 812C534.386 812 512 789.614 512 762C512 734.386 534.386 712 562 712C589.614 712 612 734.386 612 762Z" stroke="white" stroke-width="20"/>
+    
+    <!-- App Name -->
+    <text x="512" y="912" text-anchor="middle" fill="white" font-family="Arial" font-size="96" font-weight="bold">E-Shop</text>
+</svg>
